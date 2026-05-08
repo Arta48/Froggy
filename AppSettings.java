@@ -96,7 +96,7 @@ public class AppSettings {
     private static String unescapeNewlines(String s) { return s.replace("\\n", "\n").replace("\\r", "\r"); }
 
     public static class SavedData {
-        public AppTheme.Mode theme = AppTheme.Mode.LIGHT; // Дефолт теперь Светлая
+        public AppTheme.Mode theme = AppTheme.Mode.LIGHT; 
         public List<HistoryEntry> history = new ArrayList<>();
         public int zoomSize = 13;
         public boolean searchInContent = false;
